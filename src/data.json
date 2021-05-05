@@ -13253,7 +13253,7 @@
         "unit": "g"
       },
       "lipid": {
-        "qty": 0,
+        "qty": 0.001,
         "unit": "g"
       },
       "cholesterol": {
@@ -13354,7 +13354,7 @@
         "unit": "g"
       },
       "lipid": {
-        "qty": 0,
+        "qty": 0.001,
         "unit": "g"
       },
       "cholesterol": {
