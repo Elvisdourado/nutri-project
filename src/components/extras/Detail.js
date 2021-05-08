@@ -24,7 +24,7 @@ class Detail extends React.Component {
   componentDidMount() {
     const foundProject = projects.find((detail) => {
       console.log(typeof detail.id)
-      return String(detail.id) === this.props.match.params.id; // match é um objeto injetado pelo componente Route automaticamente. Ele contém informações sobre essa rota, inclusive os parâmetros de rota. A propriedade se chama 'id' pois esse nome que escolhemos para o parâmetro de rota no App.js. O valor dela é a porção variável da URL
+      return String(detail.id) === this.props.match.params.id; 
     });
 
     console.log(foundProject);

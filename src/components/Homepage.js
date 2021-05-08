@@ -6,7 +6,7 @@ function Homepage() {
 
     <div>
       <div>
-        <h5 className='d-flex justify-content-center text-center m-4 titleColor'>Busque por seu alimento e adicione<br />para saber a propriedades
+        <h5 className='d-flex justify-content-center text-center m-4 titleColor'>Busque por seu alimento e adicione<br />para saber as propriedades
       nutricionais<br /> da sua refeição.</h5>
       </div>
       <Search /> 
